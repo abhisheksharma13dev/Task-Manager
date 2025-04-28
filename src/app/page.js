@@ -1,95 +1,105 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+// "use client"
+
+// import LoginPage from "./Login/page";
+// import SignUpPage from "./Signup/page";
+
+
+// export default function Home() {
+//   return (
+// <div>
+//  <SignUpPage/>
+//  <LoginPage/>
+// </div>
+ 
+//   );
+// }
+
+// "use client"
+
+// import Link from "next/link";
+// import styles from "./page.module.css"; // Create this CSS file for styling
+
+// export default function Home() {
+//   return (
+//     <div className={styles.container}>
+//       <h1 className={styles.title}>Welcome to Our App</h1>
+//       <div className={styles.buttonGroup}>
+//         <Link href="/Login" className={styles.button}>
+//           Log In
+//         </Link>
+//         <Link href="/Signup" className={styles.button}>
+//           Sign Up
+//         </Link>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+"use client"
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      minHeight: '100vh',
+      backgroundColor: '#f8fafc',
+      padding: '2rem',
+      textAlign: 'center'
+    }}>
+      <h1 style={{
+        fontSize: '2.5rem',
+        color: '#1e293b',
+        marginBottom: '2rem',
+        fontWeight: '600'
+      }}>
+        Welcome to Our App
+      </h1>
+      <div style={{
+        display: 'flex',
+        gap: '1.5rem',
+        marginTop: '1rem'
+      }}>
+        <Link 
+          href="/Login" 
+          style={{
+            padding: '0.75rem 1.5rem',
+            borderRadius: '0.375rem',
+            fontSize: '1rem',
+            fontWeight: '500',
+            textDecoration: 'none',
+            transition: 'all 0.2s ease',
+            cursor: 'pointer',
+            backgroundColor: '#ffffff',
+            color: '#4f46e5',
+            border: '1px solid #4f46e5'
+          }}
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          Log In
+        </Link>
+        <Link 
+          href="/Signup" 
+          style={{
+            padding: '0.75rem 1.5rem',
+            borderRadius: '0.375rem',
+            fontSize: '1rem',
+            fontWeight: '500',
+            textDecoration: 'none',
+            transition: 'all 0.2s ease',
+            cursor: 'pointer',
+            backgroundColor: '#4f46e5',
+            color: '#ffffff',
+            border: '1px solid #4f46e5'
+          }}
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          Sign Up
+        </Link>
+      </div>
     </div>
   );
 }
