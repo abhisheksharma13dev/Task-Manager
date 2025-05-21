@@ -1,0 +1,65 @@
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fff7e6;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .content-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info {
+    font-weight: bold;
+  }
+  
+  .logout-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #f57c00;
+  }

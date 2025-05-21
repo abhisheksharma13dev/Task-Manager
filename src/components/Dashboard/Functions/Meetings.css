@@ -1,0 +1,70 @@
+/* src/app/Dashboard/Functions/Meetings.css */
+.meetings {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meetings h3 {
+  margin: 0 0 10px 0;
+}
+
+.add-meeting-btn {
+  background-color: #6b48ff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.meeting-day {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.day {
+  width: 50px;
+  font-weight: bold;
+}
+
+.events {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+}
+
+.event {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.event.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.event.orange {
+  background-color: #ff6200;
+  color: white;
+}
+
+.event.purple {
+  background-color: #6b48ff;
+  color: white;
+}
+
+.event.default {
+  background-color: #ccc;
+  color: white;
+}
+
+.no-event {
+  color: #888;
+}

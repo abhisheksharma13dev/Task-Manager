@@ -1,0 +1,30 @@
+.quick-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .deadline-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+  }
+  
+  .deadline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }

@@ -1,0 +1,164 @@
+/* src/app/Dashboard/Dashboard.css */
+/* .dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fff7e6;
+   
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .content-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info {
+    font-weight: bold;
+  }
+  
+  .logout-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #f57c00;
+  } */
+
+
+
+
+
+
+
+
+  /* src/app/Dashboard/Dashboard.css */
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+  background-color: #fff7e6;
+}
+
+/* Fix the sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* Match the width you set in Sidebar.css */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Allow scrolling within the sidebar if content overflows */
+  background-color: #fff7e6;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Adjust the main content to account for the fixed sidebar */
+.dashboard-main {
+  margin-left: 250px; /* Match the sidebar width */
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling for the main content */
+  height: 100vh; /* Ensure it takes the full viewport height */
+}
+
+/* Ensure the content inside dashboard-main can grow */
+.welcome-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+}
+
+.content-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  width: 200px;
+  
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info {
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #f57c00;
+}
+

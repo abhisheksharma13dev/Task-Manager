@@ -1,0 +1,80 @@
+.sidebar {
+    width: 250px;
+    background-color: #fff7e6;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+  }
+  
+  .sidebar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .logo-icon {
+    margin-right: 5px;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item.active {
+    background-color: #000;
+    color: white;
+  }
+  
+  .nav-icon {
+    margin-right: 10px;
+  }
+  
+  .notification-badge {
+    background-color: #ff6200;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+  
+  .message-preview {
+    margin-top: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .message-item h4 {
+    margin: 0;
+  }
+  
+  .message-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+  }
+  
+  .message-text span {
+    color: #888;
+  }

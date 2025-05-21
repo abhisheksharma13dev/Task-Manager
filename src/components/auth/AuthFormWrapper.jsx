@@ -1,5 +1,6 @@
 "use client"
-import "./Auth.css"
+
+import "../auth/Auth.css"
 
 export default function AuthFormWrapper ({title, children}) {
     return(
