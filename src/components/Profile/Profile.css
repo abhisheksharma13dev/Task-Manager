@@ -1,0 +1,145 @@
+.profile-container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header{
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.profile-header h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    
+}
+.profile-sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Takes full viewport height */
+}
+.profile-layout{
+    display: flex;
+}
+
+
+.profile-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.profile-subheader p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact-blocks {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-block {
+  flex: 1;
+}
+
+.profile-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3498db;
+}
+
+.about-text {
+  line-height: 1.7;
+}
+
+.expertise-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.expertise-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.expertise-row span {
+  flex: 1;
+  padding: 0.8rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.web-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.web-link {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.web-link.checked {
+  background: #e8f4fc;
+}
+
+.web-icon {
+  margin-right: 0.8rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-tag {
+  padding: 0.5rem 1rem;
+  background: #e8f4fc;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.attachments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.attachment-item input {
+  margin-right: 0.8rem;
+}

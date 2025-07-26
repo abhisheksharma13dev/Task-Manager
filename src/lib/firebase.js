@@ -9,7 +9,7 @@ const firebaseConfig = {
   storageBucket: "task-manager-ff302.firebasestorage.app",
   messagingSenderId: "598054233066",
   appId: "1:598054233066:web:5bf3c671c2caed47488893",
-  measurementId: "G-JKL2E9H4Q8"
+  measurementId: "G-JKL2E9H4Q8",
 };
 
 const app = initializeApp(firebaseConfig);
